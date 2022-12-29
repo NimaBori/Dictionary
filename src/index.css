@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400;500;600;700&display=swap');
+
+html body {
+  margin: 0;
+  padding: 0;
+  font-family:  'Noto Serif NP Hmong', serif;
+  background-color:aliceblue; 
+}
+
+.main-container, .def-title {
+  box-shadow: inset 0.1rem 0.1rem 0.8rem black;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;  
+}
+
+.app-name {
+  color: darkcyan;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgb(215, 134, 3);
+}
+
+.search-box {
+  display: grid;
+  justify-content: center;  
+  border: 0.1rem dashed white;  
+  border-radius: 1.3rem;
+  margin-top: 1rem;
+}
+
+.search-input {
+  width: 50vw;
+  height: 2.6rem;  
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+
+}
+
+.search-input input {  
+  width: 100%;
+  background: transparent;
+  border: none;  
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.search-input input:focus {
+  outline: none;  
+  margin: 0;
+}
+
+.search-input button {
+  background: transparent;
+  border: none;
+} 
+
+.search-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  color: darkcyan;
+  transition: color 0.3s ease-in-out;
+}
+
+.search-icon:hover {
+  color: rgb(2, 188, 188);
+}
+
+.def-title {
+  letter-spacing: 0.1rem;
+}
+
+.line {
+  margin-bottom: -1px;
+  overflow: hidden;  
+}
+
+.play-icon {
+  color: darkcyan;
+  width: 1.3rem;
+  height: 1.3rem;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+
+}
+
+.play-icon:hover {
+  color: rgb(215, 134, 3);
+}
